@@ -1,14 +1,13 @@
-import styled, { keyframes } from 'styled-components';
-
+import styled, { keyframes } from "styled-components";
 
 export const Navbar = styled.div`
-    width: 100vw;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    background-color: transparent;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: transparent;
 `;
 const jump = keyframes`
 
@@ -20,18 +19,16 @@ const jump = keyframes`
     }
 `;
 
-
 export const NavbarCenter = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    img {
-        animation: ${jump} 1s linear infinite;
-    }
-    h2 {
-        
-        font-weight: bold;
-        color: #4C4C6D;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    animation: ${jump} 1s linear infinite;
+  }
+  h2 {
+    font-weight: bold;
+    color: #4c4c6d;
+  }
 `;
