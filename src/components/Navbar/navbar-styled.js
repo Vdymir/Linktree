@@ -27,6 +27,7 @@ export const NavbarCenter = styled.div`
   img {
     animation: ${jump} 1s linear infinite;
   }
+
   h2 {
     font-weight: bold;
     color: #4c4c6d;
