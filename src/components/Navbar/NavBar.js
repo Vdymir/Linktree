@@ -1,14 +1,14 @@
-import { Navbar, NavbarCenter } from "./navbar-styled";
+import { Navbar, NavbarCenter, NavBarImg, NavBarTitle } from "./navbar-styled";
 
 const NavBar = () => {
   return (
     <Navbar>
       <NavbarCenter>
-        <img
+        <NavBarImg
           src="https://img.icons8.com/color/50/000000/linktree.png"
           alt="Linktree"
         />
-        <h2>LinkTree</h2>
+        <NavBarTitle>LinkTree</NavBarTitle>
       </NavbarCenter>
     </Navbar>
   );

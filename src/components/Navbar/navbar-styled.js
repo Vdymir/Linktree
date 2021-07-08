@@ -9,8 +9,14 @@ export const Navbar = styled.div`
   padding: 10px;
   background-color: transparent;
 `;
-const jump = keyframes`
 
+export const NavbarCenter = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const jump = keyframes`
     50% {
         transform: translateY(-5px);
     }
@@ -19,17 +25,11 @@ const jump = keyframes`
     }
 `;
 
-export const NavbarCenter = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
+export const NavBarImg = styled.img`
+  animation: ${jump} 1s linear infinite;
+`;
 
-  img {
-    animation: ${jump} 1s linear infinite;
-  }
-
-  h2 {
-    font-weight: bold;
-    color: #4c4c6d;
-  }
+export const NavBarTitle = styled.h2`
+  font-weight: bold;
+  color: #4c4c6d;
 `;
