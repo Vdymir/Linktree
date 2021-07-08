@@ -1,5 +1,5 @@
 import { Linktree, Links } from "./layout-styled";
-import Cards from "../Cards/Cards";
+import Cards from "../Cards";
 import Footer from "../footer/Footer";
 import Header from "../Header";
 
