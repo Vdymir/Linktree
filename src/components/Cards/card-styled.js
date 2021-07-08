@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const Card = styled.div`
   width: 100%;
   max-width: 800px;
@@ -12,9 +13,10 @@ export const Card = styled.div`
   margin-top: 20px;
   font-weight: bold;
   font-size: 18px;
-  transition: all 0.2s linear;
+  transition: 0.2s linear;
+
   &:hover {
-    transition: all 0.2s linear;
+    transition: 0.2s linear;
     box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.4);
     cursor: pointer;
   }
