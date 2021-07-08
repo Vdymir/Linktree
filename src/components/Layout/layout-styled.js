@@ -10,28 +10,6 @@ export const Linktree = styled.div`
   height: calc(100vh - (70px + 2rem));
 `;
 
-export const Header = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  img {
-    width: 160px;
-    border-radius: 50%;
-    border: 2px solid #4c4c6d;
-    transition: all 0.3s linear;
-    &:hover {
-      transition: all 0.3s linear;
-      box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
-    }
-  }
-  h3 {
-    margin-top: 15px;
-    font-size: 25px;
-  }
-`;
-
 export const Links = styled.div`
   display: flex;
   flex-direction: column;
