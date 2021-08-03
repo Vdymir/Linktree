@@ -1,15 +1,13 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const Creation = styled.div`
+export const FooterContainer = styled.div`
+  width: 100%;
+  margin-top: 2.5rem;
+  padding: 10px;
+  text-align: center;
+`;
 
-    width: 100%;
-    margin-top: 2.5rem;
-    padding: 10px;
-    text-align: center;
-
-    span {
-        color: #4C4C6D;
-        font-weight: bold;
-    }
-
-`
+export const FooterAuthorName = styled.span`
+  color: #4c4c6d;
+  font-weight: bold;
+`;

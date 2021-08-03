@@ -1,14 +1,17 @@
-import { Navbar, NavbarCenter } from './navbar-styled';
+import { Navbar, NavbarCenter, NavBarImg, NavBarTitle } from "./navbar-styled";
 
 const NavBar = () => {
-    return (
-        <Navbar>
-            <NavbarCenter>
-            <img src="https://img.icons8.com/color/50/000000/linktree.png" alt="Linktree" />
-                <h2>LinkTree</h2>
-            </NavbarCenter>
-        </Navbar>
-    )
-}
+  return (
+    <Navbar>
+      <NavbarCenter>
+        <NavBarImg
+          src="https://img.icons8.com/color/50/000000/linktree.png"
+          alt="Linktree"
+        />
+        <NavBarTitle>LinkTree</NavBarTitle>
+      </NavbarCenter>
+    </Navbar>
+  );
+};
 
-export default NavBar
+export default NavBar;

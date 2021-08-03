@@ -1,12 +1,13 @@
-import React from 'react'
-import { Creation } from './footer-styled'
+import { FooterContainer, FooterAuthorName } from "./footer-styled";
 
 const Footer = () => {
-    return (
-        <Creation>
-            <p>LinkTree by: <span>Vladimir</span></p>
-        </Creation>
-    )
-}
+  return (
+    <FooterContainer>
+      <p>
+        LinkTree by: <FooterAuthorName>Vladimir</FooterAuthorName>
+      </p>
+    </FooterContainer>
+  );
+};
 
-export default Footer
+export default Footer;
